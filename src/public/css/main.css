@@ -43,6 +43,11 @@ main .articulos .section_item {
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: transform 4s;
+}
+
+.car i:hover {
+    transform: rotate(360deg);
 }
 
 .info-pp {
