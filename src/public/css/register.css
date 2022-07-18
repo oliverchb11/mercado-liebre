@@ -1,0 +1,81 @@
+.formulario-registro {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.input-register input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.fecha p {
+    font-weight: 700;
+}
+
+.domicilio p:first-child {
+    font-weight: 700;
+}
+
+.perfil p:first-child {
+    font-weight: 700;
+}
+
+.intereses p:first-child {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.perfil .all-radios {
+    display: flex;
+    width: 100%;
+    gap: 9em;
+    padding: 10px;
+}
+
+.radio1,
+.radio2 {
+    display: flex;
+    gap: 1em;
+}
+
+.input-checkbox {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 20px;
+}
+
+.intereses article {
+    padding: 10px;
+}
+
+.btn-register {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.btn-register button {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--color-celeste);
+    color: var(--color-blanco);
+    font-size: 15px;
+}
+
+@media screen and (min-width: 769px) {
+    .formulario-registro {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formulario-registro {
+        width: 50%;
+    }
+}
